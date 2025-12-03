@@ -1,0 +1,64 @@
+@use "../utils/mixins" as *;
+@use "../utils/variables" as *;
+.Group416 {
+    
+    background:#f5f5f5;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.Group416_link {
+    display: inline-block;
+font-family:$font-family;
+font-weight: 500;
+font-size: 18px;
+line-height: 144%;
+letter-spacing: 0.03em;
+color: #69b99d;
+padding: 12px 24px;
+background: #f8f9fe;
+text-transform: uppercase;
+&:hover{
+   background:#69b99d ;
+   color:#f8f9fe ;
+}
+}
+.Group416_title {
+font-family: $font3;
+font-weight: 600;
+font-size: 48px;
+line-height: 117%;
+letter-spacing: 0.01em;
+color: #054457;
+max-width: 436px;
+margin-top: 16px;
+}
+.Group416_list {
+    margin-top: 48px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    row-gap:52px;
+    column-gap:32px;
+}
+.Group416_item {
+    max-width: 376px;
+   
+}
+.Group416_list-title{
+font-family: $font-family;
+font-weight: 700;
+font-size: 28px;
+line-height: 136%;
+letter-spacing: 0.02em;
+color: #054457;
+}
+.Group416_text {
+font-family: $font-family;
+font-weight: 400;
+font-size: 16px;
+line-height: 163%;
+letter-spacing: 0.03em;
+color: #73788c;
+}

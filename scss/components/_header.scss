@@ -1,0 +1,136 @@
+@use "../utils/mixins" as *;
+@use "../utils/variables" as *;
+
+.header {
+  padding: 16px 0;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color:  #f5f5f5;
+
+  @include tablet {
+    padding: 24px 0;
+  }
+
+  @include dekstop {
+    padding: 32px 0;
+  }
+}
+
+.header__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+
+  @include tablet {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.header-logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  &__text {
+    display: none;
+
+    @include dekstop {
+      display: block;
+      font-family: "Poppins", sans-serif;
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 108%;
+      letter-spacing: 0.02em;
+      color: #4ba586;
+    }
+  }
+}
+
+.navigation-menu {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  row-gap: 8px;
+  column-gap: 16px;
+
+  @include tablet {
+    gap: 24px;
+  }
+
+  @include dekstop {
+    gap: 48px;
+  }
+
+  &__link {
+    font-family: $font-family;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 144%;
+    letter-spacing: 0.03em;
+    color: #8e8e8e;
+
+    @include dekstop {
+      font-size: 18px;
+    }
+
+    &:hover {
+      color: #69b99d;
+    }
+  }
+}
+
+.header-actions {
+  display: flex;
+  gap: 24px;
+
+  @include tablet {
+    gap: 8px;
+  }
+
+  &__primary {
+    padding: 8px 24px;
+    background-color: transparent;
+    border: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0em;
+    color: #69b99d;
+    cursor: pointer;
+
+    @include dekstop {
+      padding: 16px 48px;
+    }
+
+    &:hover {
+      color: white;
+      background-color: #69b99d;
+    }
+  }
+
+  &__secondary {
+    padding: 8px 24px;
+    background-color: #69b99d;
+    border: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0em;
+    color: white;
+    cursor: pointer;
+
+    @include dekstop {
+      padding: 16px 48px;
+    }
+
+    &:hover {
+      color: #69b99d;
+      background-color: white;
+    }
+  }
+}

@@ -1,0 +1,89 @@
+@use "../utils/mixins" as *;
+@use "../utils/variables" as *; // если требуется
+
+.footer {
+    background-color:  #f5f5f5;
+    display: flex;
+}
+
+.footer_wrap {
+    display: flex;
+    flex-direction: column;
+}
+.footer_link {
+    display: flex;
+    align-items: center;
+}
+.link-text {
+font-family: $font-family;
+font-weight: 500;
+font-size: 24px;
+line-height: 108%;
+letter-spacing: 0.02em;
+color: #4ba586;
+}
+.footer_list{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+align-items: center;
+}
+.footer_text {
+ max-width: 344px;
+font-family: $font-family;
+font-weight: 400;
+font-size: 16px;
+line-height: 163%;
+letter-spacing: 0em;
+color: $tittle;
+}
+.footer_title {
+    font-family: $second-family;
+font-weight: 500;
+font-size: 20px;
+line-height: 140%;
+text-align: center;
+color: #0b2e29;
+}
+.footer_input {
+max-width: 351px;
+height: 42px;
+border: none;
+background: #fefeff;
+}
+.button {
+    font-family: $font-family;
+font-weight: 500;
+font-size: 16px;
+line-height: 163%;
+letter-spacing: 0.03em;
+color: #fefeff;
+box-shadow: 0 0 65px 0 rgba(105, 185, 157, 0.48);
+background: #69b99d;
+border: none;
+}
+.footer_link1 {
+
+font-family: second-family;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+text-align: center;
+color: #575757;
+}
+.send_wrap{
+    display: flex;
+}
+.social_wrap {
+    display: flex;
+    gap: 12px;
+}
+.social_circle{
+   border-radius: 100%;
+   padding: 8px;
+background: #f8f9f9;
+&:hover{
+    background: purple;
+    cursor: pointer;
+}
+}

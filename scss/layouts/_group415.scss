@@ -1,0 +1,111 @@
+@use "../utils/mixins" as *;
+@use "../utils/variables" as *;
+.Group415 {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.Group415_text1 {
+    display: inline-block;
+font-family: $font-family;
+font-weight: 500;
+font-size: 18px;
+line-height: 144%;
+letter-spacing: 0.03em;
+color: #69b99d;
+padding: 12px 24px;
+background: #f8f9fe;
+}
+.Learn_wrap {
+    display: flex;
+    justify-content: space-between;
+}
+.Group415_title {
+font-family: $font3;
+font-weight: 600;
+font-size: 48px;
+line-height: 117%;
+letter-spacing: 0.01em;
+text-align: center;
+color: #054457;
+}
+.Group415_link1 {
+    display: flex;
+    align-items: center;
+    
+}
+.Group415_link2 {
+    font-family: font-family;
+font-weight: 500;
+font-size: 18px;
+line-height: 144%;
+letter-spacing: 0.03em;
+color: #69b99d;
+}
+
+.Group415_list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    @media screen and (max-width:768px) {
+        flex-direction: column;
+    }
+}
+.Group415_item {
+flex-wrap: wrap;
+margin-top: 24px;
+border: 1px solid #dedcda;
+max-width: 376px;
+height: 380px;
+    
+}
+.Group415_item-img {
+    margin-top: 24px;
+    margin-left: 24px;
+}
+.Group415_item-title {
+    max-width: 265px;
+    margin-left: 24px;
+    margin-top: 24px;
+    font-family: $font-family;
+font-weight: 600;
+font-size: 18px;
+line-height: 156%;
+letter-spacing: 0em;
+color: $tittle;
+}
+.Group415_item-text {
+    max-width: 328px;
+    margin-left: 24px;
+    margin-top: 16px;
+    font-family: $font-family;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+letter-spacing: 0em;
+color: $tittle;
+}
+.Group415_item-wrap {
+    display: flex;
+    margin-top: 24px;
+    margin-left: 24px;
+}
+.Group415_item-wrap1 {
+    flex-direction: column;
+}
+.Group415_wrap-title {
+    font-family: $third-family;
+font-weight: 600;
+font-size: 16px;
+line-height: 163%;
+letter-spacing: 0.03em;
+color: #0b2e29;
+}
+.Group415_wrap-text {
+    font-family: $third-family;
+font-weight: 400;
+font-size: 12px;
+line-height: 183%;
+letter-spacing: 0.04em;
+color: #767676;
+}
