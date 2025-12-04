@@ -2,211 +2,202 @@
 @use "../utils/variables" as *;
 
 .Group368 {
-    padding-top: 140px;
-    @media screen and (min-width:480px){
-       padding-top: 60px;
-    }
-    padding-bottom: 60px;
+  padding-top: 140px;
+  @media screen and (min-width: 480px) {
+    padding-top: 60px;
+  }
+  padding-bottom: 60px;
 }
 
 .Group368_link1 {
-    display: inline-block;
-font-family: $font-family;
-font-weight: 500;
-font-size: 18px;
-line-height: 144%;
-letter-spacing: 0.03em;
-color: #69b99d;
-padding: 12px 24px;
-background: #f8f9fe;
-text-transform: uppercase;
-&:hover{
-background: #69b99d;
-color: #f8f9fe;
-}
+  display: inline-block;
+  font-family: $font-family;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 144%;
+  letter-spacing: 0.03em;
+  color: #69b99d;
+  padding: 12px 24px;
+  background: #f8f9fe;
+  text-transform: uppercase;
+  &:hover {
+    background: #69b99d;
+    color: #f8f9fe;
+  }
 }
 .Group368_title {
-font-family: $font3;
-font-weight: 600;
-font-size: 32px;
-line-height: 117%;
-letter-spacing: 0.01em;
-color: #054457;
-max-width: 280px;
-@media screen and (min-width:480px){
-font-family: $font3;
-font-weight: 600;
-font-size: 48px;
-line-height: 117%;
-letter-spacing: 0.01em;
-color: #054457;
-}
+  font-family: $font3;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 117%;
+  letter-spacing: 0.01em;
+  color: #054457;
+  max-width: 280px;
+  @media screen and (min-width: 480px) {
+    font-family: $font3;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 117%;
+    letter-spacing: 0.01em;
+    color: #054457;
+  }
 }
 .Group368_text {
-font-family: $font-family;
-font-weight: 400;
-font-size: 16px;
-line-height: 163%;
-letter-spacing: 0em;
-color: #73788c;
-max-width: 492px;
+  font-family: $font-family;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 163%;
+  letter-spacing: 0em;
+  color: #73788c;
+  max-width: 492px;
 }
 .Group368_link2 {
-    display: flex;
-    float: right;
-    
+  display: flex;
+  float: right;
 }
 
 .Group368_link3 {
-font-family: $font-family;
-font-weight: 500;
-font-size: 18px;
-line-height: 144%;
-letter-spacing: 0.03em;
-color: #69b99d;
+  font-family: $font-family;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 144%;
+  letter-spacing: 0.03em;
+  color: #69b99d;
 }
-.Group368_link4{
-    margin-top: 2px;
-    margin-left: 12px;
+.Group368_link4 {
+  margin-top: 2px;
+  margin-left: 12px;
 }
 .Group368_list {
-   display: flex;
-   flex-wrap: wrap;
-   margin-top: 24px;
-   @media screen and (max-width:480px) {
-    flex-direction: column;
-   }
-    @media screen and (min-width:480px) {
+  display: flex;
+  
+  flex-wrap: wrap;
+  margin-top: 24px;
+  @mixin dekstop {
+flex-direction: column;
+  }
+  @media screen and (min-width: 480px) {
     margin-top: 48px;
-    display: flex;
+    align-items: center;
     justify-content: space-between;
-    
-    }
+  }
 }
 .Group368_item {
-width: 376px;
-height: 472px;
-border: 1px solid #dedcda;
-background: #fefeff;
-padding: 16px;
-align-items: center;
+  max-width: 376px;
+ max-height:472px ; 
+  border: 1px solid #dedcda;
+  background: #fefeff;
+  padding: 16px;
+  align-items: center;
 }
-.Group368_item-img{
-    width: 244px;
-    height: 178px;
-    @media screen and (min-width:480px){
-        height:228px ;
-width: 344px;  
-    }
-
-
+.Group368_item-img {
+  width: 244px;
+  height: 178px;
+  @media screen and (min-width: 480px) {
+    height: 228px;
+    width: 344px;
+  }
 }
 .Group368_item-title {
-font-family: $font-family;
-font-weight: 600;
-font-size: 24px;
-line-height: 133%;
-letter-spacing: 0em;
-color: $tittle;
-margin-top: 16px;
+  font-family: $font-family;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 133%;
+  letter-spacing: 0em;
+  color: $tittle;
+  margin-top: 16px;
 }
 .Group368_item-text {
-font-family: $font-family;
-font-weight: 400;
-font-size: 16px;
-line-height: 163%;
-letter-spacing: 0em;
-color: #a6a6a6;
-margin-top: 8px;
+  font-family: $font-family;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 163%;
+  letter-spacing: 0em;
+  color: #a6a6a6;
+  margin-top: 8px;
 }
 .Group368_item-cont {
-    display: flex;
-    justify-content: center;
-    @media screen and (max-width:480px){
-        flex-direction: column;
-    }
+  display: flex;
+  justify-content: center;
+  @media screen and (max-width: 480px) {
+    flex-direction: column;
+  }
 
-    @media screen and (min-width:480px){
+  @media screen and (min-width: 480px) {
     display: flex;
     margin-top: 16px;
-    }
+  }
 }
 .Group368_item-money {
-    font-family: $font-family;
-font-weight: 600;
-font-size: 24px;
-line-height: 133%;
-letter-spacing: 0em;
-color: #69b99d;
+  font-family: $font-family;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 133%;
+  letter-spacing: 0em;
+  color: #69b99d;
 }
 .Group368_item-text2 {
-    font-family: $font-family;
-font-weight: 400;
-font-size: 16px;
-line-height: 150%;
-letter-spacing: 0em;
-color: &tittle;
-padding: 4px 8px;
-width: 159px;
-height: 32px;
-background: #f5f5f5;
+  font-family: $font-family;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0em;
+  color: &tittle;
+  padding: 4px 8px;
+  width: 159px;
+  height: 32px;
+  background: #f5f5f5;
 
-text-align: center;
-@media screen and (min-width:480px) {
+  text-align: center;
+  @media screen and (min-width: 480px) {
     margin-left: 32px;
-    
+  }
 }
+.Group368_item-span {
+  color: #a6a6a6;
 }
-.Group368_item-span{
-    color: #a6a6a6;
-}
-.Group368_item-sup{
-    font-family: $fourth-family;
+.Group368_item-sup {
+  font-family: $fourth-family;
 }
 .Group368_item-link {
-    display: inline-block;
-    font-family: $font-family;
-font-weight: 500;
-font-size: 16px;
-line-height: 150%;
-letter-spacing: 0em;
-color: #69b99d;
-border: 1px solid #69b99d;
-padding: 12px 48px;
-max-width: 246px;
-max-height: 48px;
-margin-top: 24px;
-text-align: center;
-@media screen and (min-width:480px) {
+  display: inline-block;
+  font-family: $font-family;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0em;
+  color: #69b99d;
+  border: 1px solid #69b99d;
+  padding: 12px 48px;
+  max-width: 246px;
+  max-height: 48px;
+  margin-top: 24px;
+  text-align: center;
+  @media screen and (min-width: 480px) {
     width: 346px;
-    
-    
+  }
 }
-}
-.Group368_item-link2{
-display: inline-block;
-font-family: $font-family;
-font-weight: 500;
-font-size: 16px;
-line-height: 150%;
-letter-spacing: 0em;
-color: #fefeff;
-padding: 12px 48px;
-max-width: 246px;
-max-height: 48px;
-margin-top: 24px;
-box-shadow: 0 0 20px 0 rgba(105, 185, 157, 0.58);
-background: #69b99d;
-text-align: center;
-@media screen and (min-width:480px) {
+.Group368_item-link2 {
+  display: inline-block;
+  font-family: $font-family;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0em;
+  color: #fefeff;
+  padding: 12px 48px;
+  max-width: 246px;
+  max-height: 48px;
+  margin-top: 24px;
+  box-shadow: 0 0 20px 0 rgba(105, 185, 157, 0.58);
+  background: #69b99d;
+  text-align: center;
+  @media screen and (min-width: 480px) {
     width: 346px;
-
-    
+  }
 }
-
-}
-.discover__wrap{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.discover__wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }

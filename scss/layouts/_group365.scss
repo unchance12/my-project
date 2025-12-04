@@ -1,178 +1,190 @@
 @use "../utils/mixins" as *;
 @use "../utils/variables" as *;
 .Group365 {
-    padding-top: 60px;
-    padding-bottom: 60px;
+  padding-top: 216px;
+  padding-bottom: 60px;
+}
+
+.about__wrapper {
+  position: relative;
+  max-width: 609px;
 }
 
 .Group365_thumb {
-width: 174px;
-height: 252px;
-background-color: white;
-display: flex;
-flex-direction: column;
-align-items: center;
-position: absolute;
-z-index: 2;
-left: 192px;
-bottom: -1573px;
- @media screen and (min-width:1240px) {
-     top: 2700px;
-left: 200px;
-    }
-
+  position: absolute;
+  top: -96px;
+  left: 96px;
+  z-index: 2;
+  width: 174px;
+  height: 252px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .Group365_titel {
-font-family: $font-family;
-font-weight: 400;
-font-size: 24px;
-line-height: 111%;
-letter-spacing: 0em;
-color: #054457;
-margin: 0;
-@media screen and (min-width:480px){
-font-family: $font-family;
-font-weight: 400;
-font-size: 72px;
-line-height: 111%;
-letter-spacing: 0em;
-color: #054457;
-margin: 0;
-}
+  font-family: $font-family;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 111%;
+  letter-spacing: 0em;
+  color: #054457;
+  margin: 0;
+  @media screen and (min-width: 480px) {
+    font-family: $font-family;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 111%;
+    letter-spacing: 0em;
+    color: #054457;
+    margin: 0;
+  }
 }
 .Group365_star {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 .Group365_text1 {
-font-family: $font-family;
-font-weight: 400;
-font-size: 16px;
-line-height: 150%;
-letter-spacing: 0em;
-color: #a6a6a6;
+  font-family: $font-family;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0em;
+  color: #a6a6a6;
 }
 .Group365_text2 {
-font-family: $font-family;
-font-weight: 400;
-font-size: 16px;
-line-height: 150%;
-letter-spacing: 0em;
-color: #054457;
+  font-family: $font-family;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0em;
+  color: #054457;
 }
 .Group365_thumb1 {
-    display: flex;
-    background-color: white;
-    align-items: center;
-    position: absolute;
-    z-index: 2;
-    top: -100px;
-    left: 392px;
-    @media screen and (min-width:1240px) {
-    left: 192px;
-    
-    }
-    
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  background-color: white;
+  align-items: center;
+  z-index: 2;
 }
 .Group365_text3 {
+  font-family: $font-family;
+  font-weight: 400;
+  font-size: 8px;
+  line-height: 163%;
+  letter-spacing: 0em;
+  color: #a6a6a6;
+  max-width: 72px;
+  @media screen and (min-width: 480px) {
     font-family: $font-family;
-font-weight: 400;
-font-size: 8px;
-line-height: 163%;
-letter-spacing: 0em;
-color: #a6a6a6;
-max-width: 72px;
-@media screen and (min-width:480px){
-    font-family: $font-family;
-font-weight: 400;
-font-size: 16px;
-line-height: 163%;
-letter-spacing: 0em;
-color: #a6a6a6;
-max-width: 72px;
-}
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 163%;
+    letter-spacing: 0em;
+    color: #a6a6a6;
+    max-width: 72px;
+  }
 }
 .Group365_text4 {
+  font-family: $font-family;
+  font-weight: 400;
+  font-size: 8px;
+  line-height: 163%;
+  letter-spacing: 0em;
+  color: #a6a6a6;
+  max-width: 82px;
+  @media screen and (min-width: 480px) {
     font-family: $font-family;
-font-weight: 400;
-font-size: 8px;
-line-height: 163%;
-letter-spacing: 0em;
-color: #a6a6a6;
-max-width: 82px;
-@media screen and (min-width:480px){
-    font-family: $font-family;
-font-weight: 400;
-font-size: 16px;
-line-height: 163%;
-letter-spacing: 0em;
-color: #a6a6a6;
-max-width: 82px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 163%;
+    letter-spacing: 0em;
+    color: #a6a6a6;
+    max-width: 82px;
+  }
 }
-}
-.Group365_img{
-    position: relative;
+.Group365_img {
+   max-width: 690px;
+  position: relative;
+  
+  @media screen and (max-width:480px) {
     
+  
+    max-width: 300px;
+  }
 }
-.Group365_wrapper{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    @media screen and (max-width:1040px){
-        flex-direction: column;
-    }
+.Group365_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  @media screen and (max-width: 1040px) {
+    flex-direction: column;
+  }
 }
 .Group365_link {
-    display: inline-block;
-    font-family: $font-family;
-font-weight: 500;
-font-size: 18px;
-line-height: 144%;
-letter-spacing: 0.03em;
-color: #69b99d;
-padding: 12px 24px;
+  display: inline-block;
+  font-family: $font-family;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 144%;
+  letter-spacing: 0.03em;
+  color: #69b99d;
+  padding: 12px 24px;
 
-background: #f8f9fe;
-&:hover{
-    color:#f8f9fe ;
-    background:#69b99d ;
-}
+  background: #f8f9fe;
+  &:hover {
+    color: #f8f9fe;
+    background: #69b99d;
+   
+  }
+   @media screen and (max-width:480px) {
+     margin-top: 32px;
+      
+    }
 }
 .Group365_div-titel {
-        font-family: $font3;
-font-weight: 600;
-font-size: 48px;
-line-height: 117%;
-letter-spacing: 0.01em;
-color: #054457;
-
+  font-family: $font3;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 117%;
+  letter-spacing: 0.01em;
+  color: #054457;
+  margin-top: 16px;
 }
-
-
 
 .Group365_text5 {
-    font-family: $font-family;
-font-weight: 400;
-font-size: 16px;
-line-height: 163%;
-letter-spacing: 0em;
-color: #73788c;
+  font-family: $font-family;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 163%;
+  letter-spacing: 0em;
+  color: #73788c;
+  margin-top: 16px;
 }
 .Group365_link2 {
-display: inline-block;
-margin-top:48px ;
-font-family: $font-family;
-font-weight: 500;
-font-size: 16px;
-line-height: 150%;
-letter-spacing: 0em;
-color: #fefeff;
-padding: 18px 48px;
+  display: inline-block;
 
-box-shadow: 24px 24px 65px 0 rgba(81, 140, 119, 0.24);
-background: #69b99d;
-&:hover{
-    background:#fefeff ;
-    color:#69b99d ;
+  margin-top: 48px;
+  font-family: $font-family;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0em;
+  color: #fefeff;
+  padding: 18px 48px;
+
+  box-shadow: 24px 24px 65px 0 rgba(81, 140, 119, 0.24);
+  background: #69b99d;
+  &:hover {
+    background: #fefeff;
+    color: #69b99d;
+  }
 }
+.right_side{
+  @media screen and (min-width:480px) {
+    margin-left: 56px;
+  }
+  
 }
