@@ -71,6 +71,7 @@ color: &tittle;
 }
 }
 .Group418_text-link{
+    display: inline-block;
 font-family: $font-family;
 font-weight: 500;
 font-size: 18px;
@@ -79,15 +80,11 @@ letter-spacing: 0.03em;
 text-align: center;
 color: #69b99d;
 text-transform: uppercase;
-
+background-color: #fff;
 padding: 12px 24px;
-width: 162px;
-max-height: 50px;
 
-&:hover{
-    color: #f8f9fe;
-    background-color:#69b99d ;
-}
+
+
 }
 
 .Group418_buy{

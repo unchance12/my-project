@@ -75,6 +75,7 @@
 }
 
 .Group418_text-link {
+  display: inline-block;
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-size: 18px;
@@ -83,13 +84,8 @@
   text-align: center;
   color: #69b99d;
   text-transform: uppercase;
+  background-color: #fff;
   padding: 12px 24px;
-  width: 162px;
-  max-height: 50px;
-}
-.Group418_text-link:hover {
-  color: #f8f9fe;
-  background-color: #69b99d;
 }
 
 .Group418_buy {
@@ -458,10 +454,6 @@ img {
   padding: 12px 24px;
   background: #f8f9fe;
   text-transform: uppercase;
-}
-.Group368_link1:hover {
-  background: #69b99d;
-  color: #f8f9fe;
 }
 
 .Group368_title {
@@ -910,10 +902,6 @@ img {
   color: #69b99d;
   padding: 12px 24px;
   background: #f8f9fe;
-}
-.Group365_link:hover {
-  color: #f8f9fe;
-  background: #69b99d;
 }
 @media screen and (max-width: 480px) {
   .Group365_link {
