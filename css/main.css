@@ -976,6 +976,7 @@ img {
 }
 
 .Group415_title {
+  margin-top: 16px;
   font-family: "Rubik", sans-serif;
   font-weight: 600;
   font-size: 48px;
@@ -1124,13 +1125,14 @@ img {
 }
 
 .footer_text {
-  max-width: 344px;
+  max-width: 324px;
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 163%;
   letter-spacing: 0em;
   color: #1f2744;
+  margin-top: 16px;
 }
 
 .footer_title {
@@ -1138,7 +1140,6 @@ img {
   font-weight: 500;
   font-size: 20px;
   line-height: 140%;
-  text-align: center;
   color: #0b2e29;
 }
 
@@ -1147,6 +1148,12 @@ img {
   height: 42px;
   border: none;
   background: #fefeff;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 163%;
+  letter-spacing: 0.03em;
+  color: #d7d7d7;
 }
 
 .button {
@@ -1159,9 +1166,13 @@ img {
   box-shadow: 0 0 65px 0 rgba(105, 185, 157, 0.48);
   background: #69b99d;
   border: none;
+  width: 88px;
+  height: 42px;
 }
 
 .footer_link1 {
+  margin-top: 16px;
+  display: inline-block;
   font-family: second-family;
   font-weight: 400;
   font-size: 16px;
@@ -1192,4 +1203,14 @@ img {
 
 .dsad {
   display: flex;
+}
+
+.lebel {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 140%;
+  margin-top: 24px;
+  color: #0b2e29;
+  margin-bottom: 16px;
 }/*# sourceMappingURL=main.css.map */

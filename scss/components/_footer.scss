@@ -13,10 +13,6 @@
     
     
 }
-.footer_wrap:nth-child(1){
-    
-
-}
 .footer_wrap:nth-child(2){
     margin-left: 214px;
 
@@ -47,22 +43,23 @@ flex-wrap: wrap;
 justify-content: space-between;
 align-items: center;
 align-items: flex-start;
+
 }
 .footer_text {
- max-width: 344px;
+ max-width: 324px;
 font-family: $font-family;
 font-weight: 400;
 font-size: 16px;
 line-height: 163%;
 letter-spacing: 0em;
 color: $tittle;
+margin-top: 16px;
 }
 .footer_title {
-    font-family: $second-family;
+ font-family: $second-family;
 font-weight: 500;
 font-size: 20px;
 line-height: 140%;
-text-align: center;
 color: #0b2e29;
 }
 .footer_input {
@@ -70,6 +67,12 @@ max-width: 351px;
 height: 42px;
 border: none;
 background: #fefeff;
+font-family: $font-family;
+font-weight: 400;
+font-size: 16px;
+line-height: 163%;
+letter-spacing: 0.03em;
+color: #d7d7d7;
 }
 .button {
     font-family: $font-family;
@@ -81,9 +84,12 @@ color: #fefeff;
 box-shadow: 0 0 65px 0 rgba(105, 185, 157, 0.48);
 background: #69b99d;
 border: none;
+width: 88px;
+height: 42px;
 }
 .footer_link1 {
-
+    margin-top: 16px;
+display: inline-block;
 font-family: second-family;
 font-weight: 400;
 font-size: 16px;
@@ -110,4 +116,13 @@ background: #f8f9f9;
 }
 .dsad{
     display: flex;
+}
+.lebel{
+    font-family: $second-family;
+font-weight: 500;
+font-size: 20px;
+line-height: 140%;
+margin-top: 24px;
+color: #0b2e29;
+margin-bottom: 16px;
 }
