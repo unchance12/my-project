@@ -43,6 +43,7 @@ flex-wrap: wrap;
 justify-content: space-between;
 align-items: center;
 align-items: flex-start;
+padding-top: 80px;
 
 }
 .footer_text {
@@ -73,6 +74,7 @@ font-size: 16px;
 line-height: 163%;
 letter-spacing: 0.03em;
 color: #d7d7d7;
+margin-bottom: 100px;
 }
 .button {
     font-family: $font-family;
