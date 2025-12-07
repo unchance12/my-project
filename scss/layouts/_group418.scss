@@ -1,7 +1,7 @@
 @use "../utils/mixins" as *;
 @use "../utils/variables" as *;
 .Group418_container{
-    padding-bottom: 60px;
+    padding-top: 60px;
     background-color:  #f5f5f5;
 }
 .Group418{
@@ -82,7 +82,10 @@ color: #69b99d;
 text-transform: uppercase;
 background-color: #fff;
 padding: 12px 24px;
-
+@media screen and (max-width: 1080px) {
+      display: block;
+       text-align: center;
+  }
 
 
 }
